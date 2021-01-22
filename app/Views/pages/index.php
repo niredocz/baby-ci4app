@@ -11,16 +11,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="<?= base_url() ?>/images/favicon.ico">
 
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="<?= base_url() ?>/css/bootstrap.min.css" type="text/css">
 
         <!--Material Icon -->
-        <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+        <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/css/materialdesignicons.min.css" />
 
         <!-- Custom  sCss -->
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/css/style.css" />
 
     </head>
 
@@ -31,8 +31,8 @@
             <div class="container-fluid">
                 <!-- LOGO -->
                 <a class="logo text-uppercase" href="index-2.html">
-                    <img src="images/logo-light.png" alt="" class="logo-light" height="18" />
-                    <img src="images/logo-dark.png" alt="" class="logo-dark" height="18" />
+                    <img src="<?= base_url() ?>/images/logo-light.png" alt="" class="logo-light" height="18" />
+                    <img src="<?= base_url() ?>/images/logo-dark.png" alt="" class="logo-dark" height="18" />
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -96,9 +96,9 @@
                             </div>
                             <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-7">
                                 <div class="home-img position-relative">
-                                    <img src="images/home-img.png" alt="" class="home-first-img">
-                                    <img src="images/home-img.png" alt="" class="home-second-img mx-auto d-block">
-                                    <img src="images/home-img.png" alt="" class="home-third-img">
+                                    <img src="<?= base_url() ?>/images/home-img.png" alt="" class="home-first-img">
+                                    <img src="<?= base_url() ?>/images/home-img.png" alt="" class="home-second-img mx-auto d-block">
+                                    <img src="<?= base_url() ?>/images/home-img.png" alt="" class="home-third-img">
                                 </div>
                             </div>
                         </div>
@@ -117,22 +117,22 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="client-images">
-                                <img src="images/clients/1.png" alt="logo-img" class="mx-auto img-fluid d-block">
+                                <img src="<?= base_url() ?>/images/clients/1.png" alt="logo-img" class="mx-auto img-fluid d-block">
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="client-images">
-                                <img src="images/clients/3.png" alt="logo-img" class="mx-auto img-fluid d-block">
+                                <img src="<?= base_url() ?>/images/clients/3.png" alt="logo-img" class="mx-auto img-fluid d-block">
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="client-images">
-                                <img src="images/clients/4.png" alt="logo-img" class="mx-auto img-fluid d-block">
+                                <img src="<?= base_url() ?>/images/clients/4.png" alt="logo-img" class="mx-auto img-fluid d-block">
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="client-images">
-                                <img src="images/clients/6.png" alt="logo-img" class="mx-auto img-fluid d-block">
+                                <img src="<?= base_url() ?>/images/clients/6.png" alt="logo-img" class="mx-auto img-fluid d-block">
                             </div>
                         </div>
                     </div> <!-- end row -->
@@ -158,7 +158,7 @@
                     <div class="col-lg-4">
                         <div class="features-box">
                             <div class="features-img mb-4">
-                                <img src="images/icons/layers.png" alt="">
+                                <img src="<?= base_url() ?>/images/icons/layers.png" alt="">
                             </div>
                             <h4 class="mb-2">Responsive Layouts</h4>
                             <p class="text-muted">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
@@ -168,7 +168,7 @@
                     <div class="col-lg-4">
                         <div class="features-box">
                             <div class="features-img mb-4">
-                                <img src="images/icons/core.png" alt="">
+                                <img src="<?= base_url() ?>/images/icons/core.png" alt="">
                             </div>
                             <h4 class="mb-2">Based on Bootstrap UI</h4>
                             <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
@@ -178,7 +178,7 @@
                     <div class="col-lg-4">
                         <div class="features-box">
                             <div class="features-img mb-4">
-                                <img src="images/icons/paperdesk.png" alt="">
+                                <img src="<?= base_url() ?>/images/icons/paperdesk.png" alt="">
                             </div>
                             <h4 class="mb-2">Creative Design</h4>
                             <p class="text-muted">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
@@ -192,7 +192,7 @@
                     <div class="col-lg-4">
                         <div class="features-box">
                             <div class="features-img mb-4">
-                                <img src="images/icons/solarsystem.png" alt="">
+                                <img src="<?= base_url() ?>/images/icons/solarsystem.png" alt="">
                             </div>
                             <h4 class="mb-3">Awesome Support</h4>
                             <p class="text-muted">At solmen va esser necessi far uniform grammatica pronun e plu sommun paroles.</p>
@@ -202,7 +202,7 @@
                     <div class="col-lg-4">
                         <div class="features-box">
                             <div class="features-img mb-4">
-                                <img src="images/icons/datatext.png" alt="">
+                                <img src="<?= base_url() ?>/images/icons/datatext.png" alt="">
                             </div>
                             <h4 class="mb-3">Easy to customize</h4>
                             <p class="text-muted">If several languages coalesce the grammar of the is more simple languages.</p>
@@ -212,7 +212,7 @@
                     <div class="col-lg-4">
                         <div class="features-box">
                             <div class="features-img mb-4">
-                                <img src="images/icons/browserscript.png" alt="">
+                                <img src="<?= base_url() ?>/images/icons/browserscript.png" alt="">
                             </div>
                             <h4 class="mb-3">Quality Code</h4>
                             <p class="text-muted">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
@@ -241,7 +241,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="demo-box bg-white mt-4 p-2">
                             <a href="#" class="text-dark">
-                                <img src="images/demo/index_1.jpg" alt="" class="img-fluid mx-auto d-block">
+                                <img src="<?= base_url() ?>/images/demo/index_1.jpg" alt="" class="img-fluid mx-auto d-block">
                                 <div class="p-3 text-center">
                                     <h5 class="mb-0">light Layouts</h5>
                                 </div>
@@ -252,7 +252,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="demo-box bg-white mt-4 p-2">
                             <a href="#" class="text-dark">
-                                <img src="images/demo/index_2.jpg" alt="" class="img-fluid mx-auto d-block">
+                                <img src="<?= base_url() ?>/images/demo/index_2.jpg" alt="" class="img-fluid mx-auto d-block">
                                 <div class="p-3 text-center">
                                     <h5 class="mb-0">Dark Layouts</h5>
                                 </div>
@@ -263,7 +263,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="demo-box bg-white mt-4 p-2">
                             <a href="#" class="text-dark">
-                                <img src="images/demo/index_3.jpg" alt="" class="img-fluid mx-auto d-block">
+                                <img src="<?= base_url() ?>/images/demo/index_3.jpg" alt="" class="img-fluid mx-auto d-block">
                                 <div class="p-3 text-center">
                                     <h5 class="mb-0">Material Design </h5>
                                 </div>
@@ -274,7 +274,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="demo-box bg-white mt-4 p-2">
                             <a href="#" class="text-dark">
-                                <img src="images/demo/index_4.jpg" alt="" class="img-fluid mx-auto d-block">
+                                <img src="<?= base_url() ?>/images/demo/index_4.jpg" alt="" class="img-fluid mx-auto d-block">
                                 <div class="p-3 text-center">
                                     <h5 class="mb-0">Purple Layouts</h5>
                                 </div>
@@ -285,7 +285,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="demo-box bg-white mt-4 p-2">
                             <a href="#" class="text-dark">
-                                <img src="images/demo/index_5.jpg" alt="" class="img-fluid mx-auto d-block">
+                                <img src="<?= base_url() ?>/images/demo/index_5.jpg" alt="" class="img-fluid mx-auto d-block">
                                 <div class="p-3 text-center">
                                     <h5 class="mb-0">Boxed Layouts</h5>
                                 </div>
@@ -296,7 +296,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="demo-box bg-white mt-4 p-2">
                             <a href="#" class="text-dark">
-                                <img src="images/demo/index_6.jpg" alt="" class="img-fluid mx-auto d-block">
+                                <img src="<?= base_url() ?>/images/demo/index_6.jpg" alt="" class="img-fluid mx-auto d-block">
                                 <div class="p-3 text-center">
                                     <h5 class="mb-0">Horizontal </h5>
                                 </div>
@@ -336,7 +336,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="feature-img">
-                            <img src="images/features-img/img-2.png" alt="" class="img-fluid mx-auto d-block">
+                            <img src="<?= base_url() ?>/images/features-img/img-2.png" alt="" class="img-fluid mx-auto d-block">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -370,7 +370,7 @@
 
                     <div class="col-lg-6">
                         <div class="feature-img">
-                            <img src="images/features-img/img-1.png" alt="" class="img-fluid mx-auto d-block">
+                            <img src="<?= base_url() ?>/images/features-img/img-1.png" alt="" class="img-fluid mx-auto d-block">
                         </div>
                     </div>
                 </div>
@@ -383,7 +383,7 @@
         <!-- pricing start -->
         <section class="section pb-0 bg-gradient" id="pricing">
             <div class="bg-shape">
-                <img src="images/bg-shape.png" alt="" class="img-fluid mx-auto d-block">
+                <img src="<?= base_url() ?>/images/bg-shape.png" alt="" class="img-fluid mx-auto d-block">
             </div>
             <div class="container-fluid">
                 <div class="row justify-content-center">
@@ -618,7 +618,7 @@
                             </div>
                             <div class="p-4">
                                 <div class="testi-img float-left mr-2">
-                                    <img src="images/testi/img-2.png" alt="" class="rounded-circle">
+                                    <img src="<?= base_url() ?>/images/testi/img-2.png" alt="" class="rounded-circle">
                                 </div>
                                 <div>
                                     <h5 class="mb-0">Michael Morrell</h5>
@@ -635,7 +635,7 @@
                             </div>
                             <div class="p-4">
                                 <div class="testi-img float-left mr-2">
-                                    <img src="images/testi/img-1.png" alt="" class="rounded-circle">
+                                    <img src="<?= base_url() ?>/images/testi/img-1.png" alt="" class="rounded-circle">
                                 </div>
                                 <div>
                                     <h5 class="mb-0">John Seidel</h5>
@@ -652,7 +652,7 @@
                             </div>
                             <div class="p-4">
                                 <div class="testi-img float-left mr-2">
-                                    <img src="images/testi/img-3.png" alt="" class="rounded-circle">
+                                    <img src="<?= base_url() ?>/images/testi/img-3.png" alt="" class="rounded-circle">
                                 </div>
                                 <div>
                                     <h5 class="mb-0">Robert Taylor</h5>
@@ -672,7 +672,7 @@
         <!-- contact start -->
         <section class="section pb-0 bg-gradient" id="contact">
             <div class="bg-shape">
-                <img src="images/bg-shape-light.png" alt="" class="img-fluid mx-auto d-block">
+                <img src="<?= base_url() ?>/images/bg-shape-light.png" alt="" class="img-fluid mx-auto d-block">
             </div>
             <div class="container-fluid">
                 <div class="row">
@@ -811,7 +811,7 @@
                     <div class="col-lg-4">
                         <div class="pr-lg-4">
                             <div class="mb-4">
-                                <img src="images/logo-light.png" alt="" height="20">
+                                <img src="<?= base_url() ?>/images/logo-light.png" alt="" height="20">
                             </div>
                             <p class="text-white-50">A Responsive Bootstrap 4 Web App Kit</p>
                             <p class="text-white-50">Ubold is a fully featured premium admin template built on top of awesome Bootstrap 4.1.3, modern web technology HTML5, CSS3 and jQuery.</p>
@@ -896,13 +896,13 @@
         <a href="#" class="back-to-top" id="back-to-top"> <i class="mdi mdi-chevron-up"> </i> </a>
 
         <!-- javascript -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/scrollspy.min.js"></script>
+        <script src="<?= base_url() ?>/js/jquery.min.js"></script>
+        <script src="<?= base_url() ?>/js/bootstrap.bundle.min.js"></script>
+        <script src="<?= base_url() ?>/js/jquery.easing.min.js"></script>
+        <script src="<?= base_url() ?>/js/scrollspy.min.js"></script>
 
         <!-- custom js -->
-        <script src="js/app.js"></script>
+        <script src="<?= base_url() ?>/js/app.js"></script>
     </body>
 
 
