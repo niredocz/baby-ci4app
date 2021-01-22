@@ -101,6 +101,7 @@ p {
 .bg-gradient {
   background: -webkit-gradient(linear, right top, left top, from(#f8a5c2), to(#f57aa5));
   background: linear-gradient(to left, #f8a5c2, #f57aa5);
+  /* Edit */
   /* background: -webkit-gradient(linear, right top, left top, from(#673ab7), to(#3e1e8c)); */
   /* background: linear-gradient(to left, #673ab7, #3e1e8c); */
 }
@@ -203,6 +204,7 @@ p {
 
 .nav-sticky.navbar-custom .navbar-nav .nav-item.active .nav-link {
   color: #f8a5c2;
+  /* Edit */
   /* color: #673ab7; */
 }
 
@@ -588,6 +590,7 @@ p {
   }
   .navbar-custom .navbar-nav .nav-item.active .nav-link {
     color: #f8a5c2 !important;
+    /* Edit */
     /* color: #673ab7 !important; */
   }
   .navbar-toggler {
